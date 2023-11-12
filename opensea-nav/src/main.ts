@@ -119,31 +119,4 @@ Devvit.addTrigger({
   }
 });
 
-Devvit.addMenuItem({
-  location: 'post', // location where the menu item appears
-  label: 'Testing the mod buttons!', // text to display in the menu (keep it short!)
-  onPress: async (event, context) => {
-    const message = `Post action! Post ID: ${event.targetId}`;
-    console.log("This is the message: " + message);
-    console.log("This is the event: " + JSON.stringify(event));
-    console.log("This is the context: " + JSON.stringify(context));
-    console.log();
-    const { ui } = context;
-    ui.showToast(message);
-  },
-});
-
-Devvit.addMenuItem({
-  label: 'Check for a scam',
-  location: 'subreddit',
-  // here we tell the ui client to show `remindMeForm` defined above when the
-  // menu item is pressed
-  onPress: (event, context) => {
-    context.ui.showForm(detectScamForm);
-    console.log(context)
-    console.log(event)
-    // const user = await reddit.getUserById(context.userId);
-  },
-});
-
 export default Devvit;
