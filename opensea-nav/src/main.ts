@@ -16,7 +16,7 @@ const openseaRegex = /opensea\.io/;
 const ethAddressRegex = /0x[a-fA-F0-9]{40}/;
 
 Devvit.addTrigger({
-  event: 'AppUpgrade',
+  events: ["AppInstall", "AppUpgrade"],
   async onEvent(event, context) {
 
     const { reddit } = context;
