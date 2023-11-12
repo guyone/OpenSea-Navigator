@@ -2,7 +2,7 @@
 
 **The RCA database is up-to-date as of gen5.**
 
-Submit a link with to an OpenSea NFT with the flair "Is This a Scam RCA?". The app will analyze the link and determine if it is a legit Reddit Collectable Avatar or not.
+Submit a OpenSea nft URL as a link post with the flair "Is This a Scam RCA?". The app will analyze the link and determine if it is a legit Reddit Collectable Avatar or not.
 
 ## Bugs
 
