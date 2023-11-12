@@ -7,6 +7,7 @@ Submit a OpenSea nft URL as a link post with the flair "Is This a Scam RCA?". Th
 ## Bugs
 
 * This app does not determine if the link is an actual scam RCA. Just that it is **not** a RCA.
+* Submitting a link through the Subreddit Menu does not do anything. It is to expand on later.
 
 ## Features To Add
 
